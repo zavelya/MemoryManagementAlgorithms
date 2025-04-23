@@ -8,7 +8,7 @@
 <body>
 <div id="mainContainer">
 	<div id="title">
-		<h1>Memory Management</h1><h3>An Online Simulation</h3>
+		<h1>Bellek Yönetim</h1><h3>Algoritmaları Simülasyonu</h3>
 	</div>
 
 	<div id="rightContainer">
@@ -16,6 +16,13 @@
 			<div id="memory"></div>
 		</div>
 	</div>
+	<label for="algorithmSelect">Allocation Algorithm:</label>
+<select id="algorithmSelect">
+	<option value="first-fit">First Fit</option>
+	<option value="best-fit" selected>Best Fit</option>
+	<option value="worst-fit">Worst Fit</option>
+</select>
+
 
 	<div id="leftContainer">
 		<h2>Add Process</h2>
